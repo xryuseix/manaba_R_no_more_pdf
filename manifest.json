@@ -1,19 +1,17 @@
 {
+  "name": "manaba_+R_no_more_pdf",
+  "version": "1.0",
+  "manifest_version": 2,
 
-    "manifest_version": 2,
-    "name": "manaba_+R_no_more_pdf",
-    "version": "1.0",
-  
-    "description": "No more pdf on manaba+R",
+  "description": "No more pdf on manaba+R",
 
-    "background": {
-        "scripts": ["background-script.js"]
-    },
+  "background": {
+    "scripts": ["background-script.js"]
+  },
 
-    "permissions": [
-        "https://ct.ritsumei.ac.jp/ct/*",
-        "webRequest",
-        "webRequestBlocking"
-      ]
-  
-  }
+  "permissions": [
+    "https://ct.ritsumei.ac.jp/ct/*",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
