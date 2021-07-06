@@ -7,6 +7,8 @@ function onHeadersReceived(details) {
 	return { responseHeaders: headers }
 }
 
+var browser = browser || chrome;
+
 browser.webRequest.onHeadersReceived.addListener(
 	onHeadersReceived,
 	{ urls: ["https://ct.ritsumei.ac.jp/ct/*"] },
